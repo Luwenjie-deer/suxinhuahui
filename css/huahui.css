@@ -1,0 +1,457 @@
+#navBig{
+    width: 100%;
+    height: 1080px;
+}
+#navBig img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+}
+#nav-box{
+    width: 1310px;
+    height: 100%;
+    margin: 0 auto;
+}
+#nav-box img{
+    padding-top: 10px;
+    float: left;
+    z-index: 2;
+}
+#nav-box ul{
+    width: 602px;
+    height: 100%;
+    float: right;
+
+}
+#nav-box>ul>li{
+    width: 56px;
+    height: 100%;
+    padding: 0 15px;
+    float: left;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+
+}
+#nav-box>ul>li>a{
+    color: #000000;
+}
+#nav-box>ul>li :hover{
+    color: #0cb2ff;
+}
+#nav-left{
+    height: 100%;
+    width: 200px;
+    background:rgba(0,0,0,0);
+    float: left;
+    position: relative;
+}
+#nav-left:hover{
+    background: rgba(0,0,0,0.1);
+}
+#nav-right{
+    height: 100%;
+    width: 200px;
+    float: right;
+    background:rgba(0,0,0,0);
+    position: relative;
+}
+#nav-right:hover{
+    background: rgba(0,0,0,0.1);
+}
+.nav-i{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: rgba(0,0,0,0.1);
+}
+.nav-i img{
+    width: 0;
+    height: 0;
+}
+#nav-left:hover .nav-i>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+#nav-right:hover .nav-i>img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+/*导航结束*/
+    /*花艺部分开始*/
+    .index{
+        width: 100%;
+        height: 770px;
+        padding: 70px 0;
+        box-sizing: border-box;
+    }
+    .met{
+        width:100%;
+        height: 630px;
+        margin: 0 auto;
+    }
+    .index-box{
+        width: 1310px;
+        height: 630px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .big{
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+
+    }
+    .index-box-title{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .big-more{
+        width: 50px;
+        height: 25px;
+        background-color: #62a8ef;
+        font-size: 16px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 25px;
+        position: absolute;
+        left: 55%;
+        top: 0;
+    }
+    .big-more:hover{
+        background-color: #00a0ce;
+    }
+    .little{
+        text-align: center;
+    }
+    .met-box{
+        width: 1310px;
+        height: 554px;
+        padding: 0 35px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .met-box-left{
+        width: 35px;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0;
+    }
+    .met-box-left-img{
+        width:35px;
+        height:35px;
+        margin-top: 260px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.05);
+        text-align: center;
+        line-height: 35px;
+        font-size: 20px;
+    }
+    .met-box-left-img:hover{
+        background: rgba(0,0,0,0.15);
+    }
+    .met-box-right-img{
+        width:35px;
+        height:35px;
+        margin-top: 260px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.05);
+        text-align: center;
+        line-height: 35px;
+        font-size: 20px;
+    }
+    .met-box-right-img:hover{
+        background: rgba(0,0,0,0.15);
+    }
+    .met-box-right{
+        width: 35px;
+        height: 100%;
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+    .met-box-li{
+        width: 367px;
+        height: 554px;
+        float: left;
+        margin: 0 23px;
+        box-sizing: border-box;
+    }
+    .met-box-img{
+        width: 366px;
+        height: 366px;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    .met-box-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .met-box-title{
+        width: 366px;
+        height: 21px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 21px;
+    }
+    .met-box-word{
+        font-size: 14px;
+        line-height: 1.5;
+        color: #757575;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .met-box-btn{
+        width: 100%;
+        height: 28px;
+        padding: 6px 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        text-align: center;
+        line-height: 14px;
+        margin-top: 20px;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: 300;
+        background:#f96868;
+    }
+    .met-box-btn:hover{
+        background: #f96850;
+    }
+    /*花艺部分结束*/
+    /*花语部分开始*/
+    .huayu{
+        width: 100%;
+        height: 880px;
+        background: #f5f5f5;
+        padding: 70px 0;
+        box-sizing: border-box;
+    }
+    .huayu-box{
+        width: 1310px;
+        height: 740px;
+        margin: 0 auto;
+    }
+    .huayu-bd{
+        width: 1310px;
+        height: 690px;
+        margin: 0 auto;
+    }
+    .huayu-bd-more{
+        width: 655px;
+        height: 140px;
+        float: left;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .huayu-bd-more-bd{
+        width: 625px;
+        height: 140px;
+    }
+    .huayu-bd-more-bd-img{
+        width: 180px;
+        height: 140px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        float: left;
+    }
+    .huayu-bd-more-bd-img img{
+        width: 160px;
+        height: 96px;
+        border-radius: 3px;
+    }
+    .huayu-bd-more-bd-word-title{
+        font-size: 16px;
+        color: #000000;
+        line-height:16px ;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    }
+    .huayu-bd-more-bd-word-title a:hover{
+        text-decoration: underline;
+        color: #00a0ce;
+    }
+    .huayu-bd-more-bd-word p{
+        font-size: 16px;
+        color: #76838f;
+        font-weight: 300;
+        margin: 0 0 11px;
+        display: block;
+    }
+    .huayu-bd-more-bd-word{
+        width: 444px;
+        height: 140px;
+        float: right;
+    }
+    .info-img img{
+        padding: 1px;
+        box-sizing: border-box;
+    }
+
+    /*花语部分结束*/
+    /*关于开始*/
+    .met-index-about{
+        width: 100%;
+        height: 850px;
+        background: #fff;
+        padding-top: 70px;
+        box-sizing: border-box;
+    }
+
+    .about-neirong{
+        width: 1170px;
+        height: 769px;
+        /*background: #00a5c4;*/
+        margin: 0 auto;
+    }
+    .about-title{
+        width: 1140px;
+        height: 44px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 44px;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .about-nr{
+        width: 1140px;
+        height: 676px;
+        /*background: #ff6700;*/
+        margin: 0  auto;
+    }
+    .about-nr-1{
+        margin: 0 auto;
+        width: 1080px;
+        height: 33px;
+        text-align: center;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 微软雅黑;
+        font-weight: 300;
+        color: #222;
+    }
+    .about-nr-2{
+        margin: 0 auto;
+        width: 1080px;
+        height: 33px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 微软雅黑;
+        font-weight: 300;
+        color: #222;
+    }
+    .about-nr-img{
+        width: 1080px;
+        height: 340px;
+        margin: 0 auto;
+        /*background: black;*/
+    }
+    .n-i{
+        width: 530px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .a-n-img img{
+        height: 100%;
+
+    }
+    /*关于结束*/
+    /*footer开始*/
+    .footer{
+        width: 100%;
+        height: 184px;
+        background: #f5f5f5;
+    }
+    .footer-tou{
+        width: 100%;
+        height: 20px;
+        border-top: 1px solid #f2f3f5;
+        background: white;
+    }
+    .footer-zhongjian{
+        width: 100%;
+        height: 67px;
+        text-align: center;
+        line-height: 67px;
+    }
+    .weixin{
+        color: #83b944;
+    }
+    .qq{
+        color: #62a8ea;
+    }
+    .footer-txt{
+        width: 100%;
+        height: 76px;
+        /*background: #ff6700;*/
+    }
+    .f-txt-1{
+        width: 1140px;
+        height: 26px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 26px;
+        margin: 0 auto;
+        color: #aaaaaa;
+    }
+    .f-txt-1-1{
+        width: 360px;
+        height: 100%;
+        margin: 0 auto;
+        line-height: 26px;
+    }
+    .f-txt-1-1 img{
+        height: 60%;
+    }
+    .f-txt-1-1:hover{
+        text-decoration: underline;
+    }
+    .f-txt-q{
+        width: 130px;
+        height: 100%;
+        float: left;
+        /*background: #00a5c4;*/
+        font-size: 14px;
+        color: #7ac3ed;
+        line-height: 26px;
+    }
+    .f-txt-w{
+        width: 230px;
+        height: 100%;
+        float: right;
+        font-size: 14px;
+        color: #7ac3ed;
+        line-height: 26px;
+    }
+    .f-txt-w:hover{
+        text-decoration: underline;
+    }
+    .f-txt-q:hover{
+        text-decoration: underline;
+    }
+    /*footer结束*/

@@ -1,0 +1,255 @@
+#nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: fixed;
+    top: 0;
+}
+#nav-box{
+    width: 1310px;
+    height: 100%;
+    margin: 0 auto;
+}
+#nav-box img{
+    padding-top: 10px;
+    float: left;
+}
+#nav-box ul{
+    width: 602px;
+    height: 100%;
+    float: right;
+
+}
+#nav-box>ul>li{
+    width: 56px;
+    height: 100%;
+    padding: 0 15px;
+    float: left;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+
+}
+#nav-box>ul>li>a{
+    color: #000000;
+}
+#nav-box>ul>li :hover{
+    color: #0cb2ff;
+}
+/*导航结束*/
+#flowerText{
+    width: 100%;
+    height: 100px;
+    background: #eeeeee;
+    box-sizing: border-box;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: none;
+    margin-top: 80px;
+}
+#flowerText p{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+/*花言花语打字结束*/
+#container{
+    width: 100%;
+    height: 700px;
+    background: #eeeeee;
+    padding-bottom: 30px;
+}
+#container-box{
+    width: 1280px;
+    height: 100%;
+    background: #eeeeee;
+    margin: 0 auto;
+}
+#container-left{
+    width: 814px;
+    height: 700px;
+    padding: 20px;
+    float: left;
+    background: white;
+}
+#container-left ul{
+    width: 100%;
+    height: 100%;
+
+}
+#container-left ul li{
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    padding: 10px 0;
+    display: flex;
+    flex-flow: nowrap;
+}
+.user{
+    width: 46px;
+    height: 53px;
+}
+.user img{
+    width: 46px;
+    height: 46px;
+}
+.media-bd{
+    width: 756px;
+    margin-left: 20px;
+}
+.media-bd h4{
+    width: 100%;
+    height:16px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+.media-bd h4 span{
+    height: 100%;
+}
+.media-bd p{
+    width: 100%;
+    height: 21px;
+    /*margin-bottom: 10px;*/
+    font-size: 13px;
+    font-weight: 300;
+}
+.media-boss{
+    width: 710px;
+    padding: 20px;
+    height: 30px;
+    min-height: 20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+#container-right{
+    width: 347px;
+    height: 404px;
+    float: right;
+    padding: 20px;
+    background: white;
+}
+#container-from{
+    width: 347px;
+    height: 404px;
+}
+.from-item {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
+.from-item2 {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-flow: nowrap;
+}
+.from-item input{
+    width: 327px;
+    height: 40px;
+    border: #00a0ce;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+.from-item1{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
+.from-item1 textarea{
+    width: 327px;
+    height: 100px;
+    border: #00a0ce;
+    padding: 0 10px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+#validate{
+    width: 200px;
+    height: 40px;
+    border: #00a0ce;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+#validate-img{
+    width: 130px;
+    height: 40px;
+    border-left: 1px solid #eeeeee;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#validate-img img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#from-btn{
+    width: 257px;
+    height: 36px;
+    margin: -6px auto;
+    padding: 3px 15px;
+    background: #00a0ce;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    border-radius: 3px;
+}
+#from-btn:hover{
+    background:#0cb2ff;
+}
+/*主体部分结束*/
+#bottom{
+    width: 100%;
+    height: 30px;
+    background: white;
+}
+#footer{
+    width: 100%;
+    height: 161px;
+    background: #eeeeee;
+}
+#footer-box{
+    width: 450px;
+    height: 100%;
+    margin: 0 auto;
+}
+#footer-box-i{
+    width: 100%;
+    height: 50px;
+    padding-top:10px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+#footer-box-i i{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #00a0ce;
+    margin: 0 10px;
+}
+#footer-box-word{
+    width: 100%;
+    height: 80px;
+}
+#footer-box-word>p{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    font-size: 16px;
+    color: #aaaaaa;
+    line-height: 1.5;
+
+}
+#footer-box-word img{
+    margin-left: 10px;
+}
+#footer-box-word>p>a{
+    color: #62a8ea;
+}
